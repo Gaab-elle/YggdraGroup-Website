@@ -1,5 +1,5 @@
 import { Mail, MessageCircle, MapPin, Clock, Phone } from "lucide-react";
-import { Card, CardContent } from "./ui/Card";
+import { Card, CardContent } from "./ui/cards";
 
 const Contact = () => {
   const contactInfo = [

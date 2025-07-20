@@ -1,4 +1,4 @@
-import { Card, CardContent } from "./ui/Card";
+import { Card, CardContent } from "./ui/cards";
 import { Users, Target, Lightbulb, Award } from "lucide-react";
 
 const About = () => {

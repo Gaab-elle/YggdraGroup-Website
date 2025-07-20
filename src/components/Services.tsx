@@ -6,7 +6,7 @@ import {
     Shield, 
     Smartphone 
   } from "lucide-react";
-  import { Card, CardContent } from "./ui/Card";
+  import { Card, CardContent } from "./ui/cards";
   
   const Services = () => {
     const services = [
