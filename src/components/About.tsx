@@ -72,7 +72,7 @@ const About = () => {
 
             {/* Values Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {values.map((value, index) => {
+              {values.map((value) => {
                 const Icon = value.icon;
                 return (
                   <Card 

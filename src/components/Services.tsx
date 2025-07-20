@@ -6,7 +6,7 @@ import {
     Shield, 
     Smartphone 
   } from "lucide-react";
-  import { Card, CardContent } from "./ui/card";
+  import { Card, CardContent } from "./ui/Card";
   
   const Services = () => {
     const services = [
@@ -76,7 +76,7 @@ import {
   
           {/* Services Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {services.map((service, index) => {
+            {services.map((service) => {
               const Icon = service.icon;
               
               return (

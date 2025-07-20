@@ -1,4 +1,4 @@
-import { Mail, MessageCircle, MapPin, Send, Clock, Phone } from "lucide-react";
+import { Mail, MessageCircle, MapPin, Clock, Phone } from "lucide-react";
 import { Card, CardContent } from "./ui/Card";
 
 const Contact = () => {
@@ -72,7 +72,7 @@ const Contact = () => {
 
           {/* Contact Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-            {contactInfo.map((info, index) => {
+            {contactInfo.map((info) => {
               const Icon = info.icon;
               
               return (
