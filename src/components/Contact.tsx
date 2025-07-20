@@ -6,8 +6,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      content: "contato@yggdragroup.com",
-      link: "mailto:contato@yggdragroup.com",
+      content: "yggdratech@gmail.com",
+      link: "mailto:yggdratech@gmail.com",
       description: "Envie sua mensagem detalhada",
       color: "from-blue-500 to-cyan-500",
       responseTime: "Resposta em até 1h"

@@ -59,7 +59,7 @@ import {
       {
         name: "GitHub",
         icon: Github,
-        url: "https://github.com/yggdragroup",
+        url: "https://github.com/yggdratech",
         color: "hover:text-gray-400"
       }
     ];
@@ -103,9 +103,11 @@ import {
               {/* Company Info */}
               <div className="lg:col-span-1 space-y-6">
                 <div className="flex items-center space-x-3 group cursor-pointer" onClick={() => scrollToSection('#home')}>
-                  <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <span className="text-white font-bold text-lg">Y</span>
-                  </div>
+                  <img 
+                    src="/yggdra-logo.png" 
+                    alt="Yggdra Group" 
+                    className="h-12 w-auto group-hover:scale-110 transition-transform duration-300"
+                  />
                   <div>
                     <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                       Yggdra Group
