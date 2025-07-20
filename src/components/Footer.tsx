@@ -104,7 +104,7 @@ import {
               <div className="lg:col-span-1 space-y-6">
                 <div className="flex items-center space-x-3 group cursor-pointer" onClick={() => scrollToSection('#home')}>
                   <img 
-                    src="/yggdra-logo.png" 
+                    src="/Yggdratech-logo.png" 
                     alt="Yggdra Group" 
                     className="h-12 w-auto group-hover:scale-110 transition-transform duration-300"
                   />
