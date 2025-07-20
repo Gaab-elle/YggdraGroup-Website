@@ -45,10 +45,10 @@ const Header = () => {
             onClick={() => scrollToSection("home")}
           >
             <img 
-              src="/src/assets/yggdra-logo.png" 
+              src="/yggdra-logo.png"  
               alt="Yggdra Group" 
               className="transition-transform duration-300 hover:scale-105"
-              style={{ height: '100px', width: 'auto' }}
+              style={{ height: '80px', width: 'auto' }}
             />
           </div>
 
